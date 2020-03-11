@@ -27,6 +27,22 @@ def Questions():
     elif q == 6:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[0:6])""")
         print("""1 - Python is cool\n2 - Python is\n3 - Pytho\n4 - Python""")
-        a = 4      
+        a = 4
+    elif q == 7:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[:6])""")
+        print("""1 - Pytho\n2 - Python\n3 - Python is\n4 - is cool""")
+        a = 2
+    elif q == 8:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[7:])""")
+        print("""1 - is cool\n2 - cool\n3 - Python is\n4 - Python i""")
+        a = 1
+    elif q == 9:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[7:-5])""")
+        print("""1 - si\n2 - nohtyP\n3 - on\n4 - is""")
+        a = 4 
+    elif q == 10:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[-2])""")
+        print("""1 - ol\n2 - si\n3 - o\n4 - l""")
+        a = 3      
     else:
         print(q)
