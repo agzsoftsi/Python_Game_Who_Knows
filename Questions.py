@@ -9,8 +9,12 @@ def Questions():
         print("1 - Guido Van Rossum\n2 - Bill Gates\n3 - Julien Barbier\n4 - Richard Stallman")
         a = 1
     elif q == 2:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? >>> print("Easy Stuff")""")
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("Easy Stuff")""")
         print("""1 - easy Stuff\n2 - "Easy Stuff"\n3 - Easy Stuff\n4 - 'Easy Stuff'""")
         a = 3
+    elif q == 3:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("{:d} karlgarmor".format(32))""")
+        print("""1 - 32 karlgarmor\n2 - karlgarmor 32\n3 - 32Karlgarmor\n4 - 32 Karlgarmor""")
+        a = 1
     else:
         print(q)
