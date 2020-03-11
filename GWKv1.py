@@ -15,4 +15,6 @@ from Questions import Questions
 if __name__ == '__main__':
     print("----------------------------------------QUESTION 1-------------------------------------------")
     Questions()
+    r = Questions()
+    print(r)
 
