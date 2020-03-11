@@ -3,7 +3,7 @@ __author__ = "Carlos Andres Garcia Morales"
 
 from random import randint, uniform,random
 def Questions():
-    q = randint(1, 5)
+    q = randint(1, 6)
     if q == 1:
         print("WHO IS THE CREATOR OF PYTHON")
         print("1 - Guido Van Rossum\n2 - Bill Gates\n3 - Julien Barbier\n4 - Richard Stallman")
@@ -23,6 +23,10 @@ def Questions():
     elif q == 5:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[4])""")
         print("""1 - P\n2 - n\n3 - o\n4 - h""")
-        a = 3    
+        a = 3
+    elif q == 6:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[0:6])""")
+        print("""1 - Python is cool\n2 - Python is\n3 - Pytho\n4 - Python""")
+        a = 4      
     else:
         print(q)
