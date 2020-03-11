@@ -19,6 +19,10 @@ def Questions():
     elif q == 4:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("{:d} is, {}".format(1, "int"))""")
         print("""1 - 1 is int\n2 - int is 1\n3 - 1 is, int\n4 - 1is,int""")
-        a = 3        
+        a = 3
+    elif q == 5:
+        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[4])""")
+        print("""1 - P\n2 - n\n3 - o\n4 - h""")
+        a = 3    
     else:
         print(q)
