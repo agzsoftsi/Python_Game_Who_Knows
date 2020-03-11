@@ -9,7 +9,7 @@ print("ONLY TYPE THE NUMBER OF THE ANSWER")
 score = 0
 
 from Questions import Questions
-
-print("----------------------------------------QUESTION 1-------------------------------------------")
-Questions()
+if __name__ == '__main__':
+    print("----------------------------------------QUESTION 1-------------------------------------------")
+    Questions()
 
