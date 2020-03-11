@@ -7,6 +7,9 @@ print("LEVEL: DUMMIE")
 print("ONLY TYPE THE NUMBER OF THE ANSWER")
 
 score = 0
+print("PLEASE ENTER YOUR NAME: ", end = "")
+name = str(input())
+
 
 from Questions import Questions
 if __name__ == '__main__':
