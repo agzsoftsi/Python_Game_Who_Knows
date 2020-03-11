@@ -46,3 +46,6 @@ def Questions():
         a = 3      
     else:
         print(q)
+
+    return a
+
