@@ -2,7 +2,7 @@
 __author__ = "Carlos Andres Garcia Morales"
 print("WHO KNOWS")
 print("CHALLENGE QUESTIONS ABOUT PYTHON BASIC")
-print("LEVEL: DUMMIE")
+print("LEVEL: DUMMIES")
 
 print("ONLY TYPE THE NUMBER OF THE ANSWER")
 
@@ -10,7 +10,6 @@ score = 0
 # print("PLEASE ENTER YOUR NAME: ", end = "")
 # name = str(input())
 
-from colorama import init, Fore, Back, Style
 from Questions import QuestionsL1
 if __name__ == '__main__':
     print("----------------------------------------QUESTION 1-------------------------------------------")
