@@ -2,7 +2,9 @@
 __author__ = "Carlos Andres Garcia Morales"
 
 from random import randint, uniform,random
-def Questions():
+
+
+def QuestionsL1():
     q = randint(1, 10)
     if q == 1:
         print("WHO IS THE CREATOR OF PYTHON")
@@ -47,5 +49,5 @@ def Questions():
     else:
         print(q)
 
-    return a
+    return (q,a)
 
