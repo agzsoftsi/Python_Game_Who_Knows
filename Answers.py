@@ -4,7 +4,7 @@ __author__ = "Carlos Andres Garcia Morales"
 from random import randint, uniform,random
 def Answers():
  
-    if q == 1:
+    if q == 1 and :
         
         a = 1
     elif q == 2:
