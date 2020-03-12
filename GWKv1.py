@@ -110,7 +110,7 @@ if __name__ == '__main__':
        print("GOOD ANSWER")
     else:
         print("WRONG ANSWER")
-            score_g = 1
+        score_g = 1
 
     if score_g == 0:
         score += 10
@@ -357,3 +357,6 @@ if __name__ == '__main__':
 
     if score_g == 0:
         score += 10
+
+
+    print("Your Score:  {:d}".format(score))
