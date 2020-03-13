@@ -2,7 +2,7 @@
 __author__ = "Carlos Andres Garcia Morales"
 
 
-from Questions import QuestionsL1
+from Questions import *
 from Answers import Answers
 
 print("WHO KNOWS")
@@ -20,11 +20,30 @@ if __name__ == '__main__':
 
     for i in range(1, 11):
         print("----------------------------------------QUESTION {:d} ------------------------------------------".format(i))
-        q1 = QuestionsL1()
+        if i == 1:
+            q1 = QuestionsL1()
+        elif i == 2:
+            q1 = QuestionsL2()
+        elif i == 3:
+            q1 = QuestionsL3()
+        elif i == 4:
+            q1 = QuestionsL4()
+        elif i == 5:
+            q1 = QuestionsL5()
+        elif i == 6:
+            q1 = QuestionsL6()
+        elif i == 7:
+            q1 = QuestionsL7()
+        elif i == 8:
+            q1 = QuestionsL8()
+        elif i == 9:
+            q1 = QuestionsL9()
+        elif i == 10:
+            q1 = QuestionsL10()
+            
         print("ENTER YOUR ANSWER: ", end="")
         r = Answers(input())
-        print("es {}".format(r))
-       
+               
         if q1[0] == 1 and q1[1] == r:
             print("GOOD ANSWER")
         elif q1[0] == 2 and q1[1] == r:
