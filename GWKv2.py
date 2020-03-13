@@ -3,6 +3,7 @@ __author__ = "Carlos Andres Garcia Morales"
 
 
 from Questions import QuestionsL1
+from Answers import Answers
 
 print("WHO KNOWS")
 print("CHALLENGE QUESTIONS ABOUT PYTHON BASIC")
@@ -21,7 +22,9 @@ if __name__ == '__main__':
         print("----------------------------------------QUESTION {:d} ------------------------------------------".format(i))
         q1 = QuestionsL1()
         print("ENTER YOUR ANSWER: ", end="")
-        r = int(input())
+        r = Answers(input())
+        print("es {}".format(r))
+       
         if q1[0] == 1 and q1[1] == r:
             print("GOOD ANSWER")
         elif q1[0] == 2 and q1[1] == r:
