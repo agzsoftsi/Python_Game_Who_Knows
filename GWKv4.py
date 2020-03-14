@@ -1,7 +1,7 @@
 """ Game Who Knows - Module of the All Game """
 __author__ = "Carlos Andres Garcia Morales"
 
-
+from colorama import Fore, Back, Style
 from Questions import *
 from Answers import Answers
 
@@ -19,7 +19,7 @@ score_g = 0
 if __name__ == '__main__':
 
     for i in range(1, 11):
-        print("----------------------------------------QUESTION {:d} ------------------------------------------".format(i))
+        print(Fore.WHITE + "----------------------------------------QUESTION {:d} ------------------------------------------".format(i))
         if i == 1:
             q1 = QuestionsL1()
         elif i == 2:
@@ -45,27 +45,27 @@ if __name__ == '__main__':
         r = Answers(input())
                
         if q1[0] == 1 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 2 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 3 and q1[1] == r:
-            print("GOOD ANSWER")
+            printFore.GREEN + ("GOOD ANSWER")
         elif q1[0] == 4 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 5 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 6 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 7 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 8 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 9 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 10 and q1[1] == r:
-            print("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         else:
-            print("WRONG ANSWER")
+            print(Fore.RED + "WRONG ANSWER")
             score_g = 1
 
         if score_g == 0:
