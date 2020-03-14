@@ -5,7 +5,7 @@ from colorama import Fore, Back, Style
 from Questions import *
 from Answers import Answers
 
-print("WHO KNOWS")
+print(Fore.WHITE + "WHO KNOWS")
 print("CHALLENGE QUESTIONS ABOUT PYTHON BASIC")
 print("LEVEL: DUMMIES")
 
@@ -49,7 +49,7 @@ if __name__ == '__main__':
         elif q1[0] == 2 and q1[1] == r:
             print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 3 and q1[1] == r:
-            printFore.GREEN + ("GOOD ANSWER")
+            print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 4 and q1[1] == r:
             print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 5 and q1[1] == r:
