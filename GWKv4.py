@@ -73,3 +73,5 @@ if __name__ == '__main__':
 
     
     print("Your Score:  {:d}".format(score))
+    print(Style.RESET_ALL)
+    
