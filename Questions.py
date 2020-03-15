@@ -139,8 +139,8 @@ def QuestionsL3():
         print("""1 - 2 4 6 8\n2 - 4 6 8 10 12 14 16 18\n3 - 2 3 4 5 6 7 8 9\n4 - 2 3 4 5 6 7 8 9 1 0""")
         a = 1 
     elif q == 10:
-        print("THAT DATA TYPE IS NOT INTEGER")
-        print("""1 - 0x18\n2 - 0b010011\n3 - 12.\n4 - 60""")
+        print("TO ADD AN ALTERNATIVE CONDITION TO A CONDITIONAL IF STATEMENT USE")
+        print("""1 - elsif\n2 - else if\n3 - elif\n4 - elseif""")
         a = 3      
     else:
         print(q)
