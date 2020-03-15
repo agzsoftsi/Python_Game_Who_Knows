@@ -115,8 +115,8 @@ def QuestionsL3():
         print("""1 - Hello\n2 - False\n3 - world\n4 - World""")
         a = 4
     elif q == 4:
-        print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
-        print("""1 - number v = 0\n2 - var v = 0\n3 - int v = 0\n4 - v = 0""")
+        print("""WHAT DO THESE LINES PRINT?\n>>>if 12 == 48/3 or 12 is 12:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""1 - 48/3\n2 - 12\n3 - World\n4 - Hello""")
         a = 4
     elif q == 5:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
