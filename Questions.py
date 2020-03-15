@@ -119,8 +119,8 @@ def QuestionsL3():
         print("""1 - 48/3\n2 - 12\n3 - World\n4 - Hello""")
         a = 4
     elif q == 5:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
-        print("""1 - 1714.67\n2 - 1714.0\n3 - 1714.66\n4 - 1715""")
+        print("""WHAT DO THESE LINES PRINT?\n>>>a = 12\nif a > 2:\n    if a % 2 == 0:\n        print("Bye")\n    else:\n        print("Hello")\nelse:\n    print("World")""")
+        print("""1 - Bye\n2 - Hello\n3 - World\n4 - 12""")
         a = 1
     elif q == 6:
         print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
