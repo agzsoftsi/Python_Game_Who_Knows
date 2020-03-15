@@ -128,15 +128,15 @@ def QuestionsL3():
         a = 2
     elif q == 7:
         print("""WHAT DO THESE LINES PRINT?\nfor i in range(4):\n    print(i, end=" ")""")
-        print("""1 - 1234\n2 - 123\n3 - 0123\n4 - 01234""")
+        print("""1 - 1 2 3 4\n2 - 1 2 3\n3 - 0 1 2 3\n4 - 0 1 2 3 4""")
         a = 3
     elif q == 8:
         print("""WHAT DO THESE LINES PRINT?\nfor i in range(2, 4):\n    print(i, end=" ")""")
-        print("""1 - 24\n2 - 23\n3 - 234\n4 - 34""")
+        print("""1 - 2 4\n2 - 2 3\n3 - 2 3 4\n4 - 3 4""")
         a = 2
     elif q == 9:
-        print("TRANSFORM A COMPATIBLE OBJECT INTO A CHARACTER STRING")
-        print("""1 - str()\n2 - int()\n3 - char()\n4 - transform()""")
+        print("""WHAT DO THESE LINES PRINT?\nfor i in range(2, 10, 2):\n    print(i, end=" ")""")
+        print("""1 - 2 4 6 8\n2 - 4 6 8 10 12 14 16 18\n3 - 2 3 4 5 6 7 8 9\n4 - 2 3 4 5 6 7 8 9 1 0""")
         a = 1 
     elif q == 10:
         print("THAT DATA TYPE IS NOT INTEGER")
