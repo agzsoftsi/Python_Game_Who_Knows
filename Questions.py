@@ -103,8 +103,8 @@ def QuestionsL2():
 def QuestionsL3():
     q = randint(1, 10)
     if q == 1:
-        print("WHAT STAND FOR PIP?")
-        print("""1 - Python In Package\n2 - Package Installer for Python\n3 - Python Is Push\n4 - Package Inside Package""")
+        print("""WHAT DO THESE LINES PRINT?\n>>>if True:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""1 - Hello World\n2 - Hello\n3 - World\n4 - hello""")
         a = 2
     elif q == 2:
         print("WHAT STAND FOR PEP?")
