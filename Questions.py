@@ -111,8 +111,8 @@ def QuestionsL3():
         print("""1 - Hello\n2 - 12\n3 - 48/4\n4 - World""")
         a = 1
     elif q == 3:
-        print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
-        print("""1 - /* comment */\n2 - ### comment '''\n3 - --- comment ---\n4 - ''' comentario '''""")
+        print("""WHAT DO THESE LINES PRINT?\n>>>if 12 == 48/4 and False:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""1 - Hello\n2 - False\n3 - world\n4 - World""")
         a = 4
     elif q == 4:
         print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
