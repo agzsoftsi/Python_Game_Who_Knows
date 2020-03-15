@@ -103,32 +103,32 @@ def QuestionsL2():
 def QuestionsL3():
     q = randint(1, 10)
     if q == 1:
-        print("""WHAT DO THESE LINES PRINT?\n>>>if True:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""WHAT DO THESE LINES PRINT?\nif True:\n    print("Hello")\nelse:\n    print("World")""")
         print("""1 - Hello World\n2 - Hello\n3 - World\n4 - hello""")
         a = 2
     elif q == 2:
-        print("""WHAT DO THESE LINES PRINT?\n>>>if 12 == 48/4:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""WHAT DO THESE LINES PRINT?\nif 12 == 48/4:\n    print("Hello")\nelse:\n    print("World")""")
         print("""1 - Hello\n2 - 12\n3 - 48/4\n4 - World""")
         a = 1
     elif q == 3:
-        print("""WHAT DO THESE LINES PRINT?\n>>>if 12 == 48/4 and False:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""WHAT DO THESE LINES PRINT?\nif 12 == 48/4 and False:\n    print("Hello")\nelse:\n    print("World")""")
         print("""1 - Hello\n2 - False\n3 - world\n4 - World""")
         a = 4
     elif q == 4:
-        print("""WHAT DO THESE LINES PRINT?\n>>>if 12 == 48/3 or 12 is 12:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""WHAT DO THESE LINES PRINT?\nif 12 == 48/3 or 12 is 12:\n    print("Hello")\nelse:\n    print("World")""")
         print("""1 - 48/3\n2 - 12\n3 - World\n4 - Hello""")
         a = 4
     elif q == 5:
-        print("""WHAT DO THESE LINES PRINT?\n>>>a = 12\nif a > 2:\n    if a % 2 == 0:\n        print("Bye")\n    else:\n        print("Hello")\nelse:\n    print("World")""")
+        print("""WHAT DO THESE LINES PRINT?\na = 12\nif a > 2:\n    if a % 2 == 0:\n        print("Bye")\n    else:\n        print("Hello")\nelse:\n    print("World")""")
         print("""1 - Bye\n2 - Hello\n3 - World\n4 - 12""")
         a = 1
     elif q == 6:
-        print("""WHAT DO THESE LINES PRINT?\n>>>a = 12\nif a < 2:\n    print("Bye")\nelif a % 2 == 0:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""WHAT DO THESE LINES PRINT?\na = 12\nif a < 2:\n    print("Bye")\nelif a % 2 == 0:\n    print("Hello")\nelse:\n    print("World")""")
         print("""1 - Bye\n2 - Hello\n3 - World\n4 - 12""")
         a = 2
     elif q == 7:
-        print("WHAT IS PYTHON?")
-        print("""1 - A low-level, non-object-oriented compiled programming language\n2 - A machine language executed in a java virtual machine\n3 - A high-level object-oriented interpreted programming language\n4 - A programming language invented by the creator of Linux""")
+        print("""WHAT DO THESE LINES PRINT?\nfor i in range(4):\n    print(i, end=" ")""")
+        print("""1 - 1234\n2 - 123\n3 - 0123\n4 - 01234""")
         a = 3
     elif q == 8:
         print("HOW TO KNOW THE TYPE OF A CERTAIN VARIABLE?")
