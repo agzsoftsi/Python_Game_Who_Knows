@@ -123,8 +123,8 @@ def QuestionsL3():
         print("""1 - Bye\n2 - Hello\n3 - World\n4 - 12""")
         a = 1
     elif q == 6:
-        print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
-        print("""1 - |=1\n2 - @=1\n3 - //=1\n4 - +=1""")
+        print("""WHAT DO THESE LINES PRINT?\n>>>a = 12\nif a < 2:\n    print("Bye")\nelif a % 2 == 0:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""1 - Bye\n2 - Hello\n3 - World\n4 - 12""")
         a = 2
     elif q == 7:
         print("WHAT IS PYTHON?")
