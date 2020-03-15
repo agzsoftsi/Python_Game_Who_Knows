@@ -107,8 +107,8 @@ def QuestionsL3():
         print("""1 - Hello World\n2 - Hello\n3 - World\n4 - hello""")
         a = 2
     elif q == 2:
-        print("WHAT STAND FOR PEP?")
-        print("""1 - Python Enhancement Proposal\n2 - Python Enter Package\n3 - Package Extra Python\n4 - Python Eight Path""")
+        print("""WHAT DO THESE LINES PRINT?\n>>>if 12 == 48/4:\n    print("Hello")\nelse:\n    print("World")""")
+        print("""1 - Hello\n2 - 12\n3 - 48/4\n4 - World""")
         a = 1
     elif q == 3:
         print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
