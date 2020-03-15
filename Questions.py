@@ -131,8 +131,8 @@ def QuestionsL3():
         print("""1 - 1234\n2 - 123\n3 - 0123\n4 - 01234""")
         a = 3
     elif q == 8:
-        print("HOW TO KNOW THE TYPE OF A CERTAIN VARIABLE?")
-        print("""1 - TypeOf(1)\n2 - type(1)\n3 - is_a?\n4 - typeof 1""")
+        print("""WHAT DO THESE LINES PRINT?\nfor i in range(2, 4):\n    print(i, end=" ")""")
+        print("""1 - 24\n2 - 23\n3 - 234\n4 - 34""")
         a = 2
     elif q == 9:
         print("TRANSFORM A COMPATIBLE OBJECT INTO A CHARACTER STRING")
