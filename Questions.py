@@ -171,9 +171,9 @@ def QuestionsL4():
         print("""1 - dicc = {'Num' -> 1, 'Name' -> 'Carlos'}\n2 - dicc = {'Num' => 1, 'Name' => 'Carlos'}\n3 - dicc = ('Num': 1, 'Name': 'Carlos')\n4 - dicc = {'Num': 1, 'Name': 'Carlos'}""")
         a = 1
     elif q == 6:
-        print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
-        print("""1 - |=1\n2 - @=1\n3 - //=1\n4 - +=1""")
-        a = 2
+        print("WHAT IS A LIST IN PYTHON??")
+        print("""1 - is a collection which is ordered and changeable. Allows duplicate members.\n2 - is a collection which is ordered and unchangeable. Allows duplicate members.\n3 - is a collection which is unordered and unindexed. No duplicate members.\n4 - is a collection which is unordered, changeable and indexed. No duplicate members.""")
+        a = 1
     elif q == 7:
         print("WHAT IS PYTHON?")
         print("""1 - A low-level, non-object-oriented compiled programming language\n2 - A machine language executed in a java virtual machine\n3 - A high-level object-oriented interpreted programming language\n4 - A programming language invented by the creator of Linux""")
