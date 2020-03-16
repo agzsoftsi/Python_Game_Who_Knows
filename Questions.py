@@ -159,9 +159,9 @@ def QuestionsL4():
         print("""1 - for a in range(0, 3):\n2 - for(a in range[0..3])\n3 - for a in range(0..3)\n4 - for(a=0; a<3; a++)""")
         a = 1
     elif q == 3:
-        print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
-        print("""1 - /* comment */\n2 - ### comment '''\n3 - --- comment ---\n4 - ''' comentario '''""")
-        a = 4
+        print("A CONDITIONAL STATEMENT IS WRITTEN")
+        print("""1 - if v == true:\n2 - if v == true then\n3 - if v == true\n4 - if (v == true)""")
+        a = 1
     elif q == 4:
         print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
         print("""1 - number v = 0\n2 - var v = 0\n3 - int v = 0\n4 - v = 0""")
