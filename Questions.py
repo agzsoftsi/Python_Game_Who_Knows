@@ -187,9 +187,9 @@ def QuestionsL4():
         print("""1 - is a collection which is ordered and changeable. Allows duplicate members.\n2 - is a collection which is ordered and unchangeable. Allows duplicate members.\n3 - is a collection which is unordered and unindexed. No duplicate members.\n4 - is a collection which is unordered, changeable and indexed. No duplicate members.""")
         a = 4 
     elif q == 10:
-        print("THAT DATA TYPE IS NOT INTEGER")
-        print("""1 - 0x18\n2 - 0b010011\n3 - 12.\n4 - 60""")
-        a = 3      
+        print("WHAT IS A FROZENSET IN PYTHON?")
+        print("""1 - is an inbuilt function is Python which takes an iterable object as input and makes them immutable.\n2 - is an inbuilt function is Python which takes an non-iterable object as input and makes them immutable.\n3 - is an inbuilt function is Python which takes an iterable object as input and makes them mutable.\n4 - None""")
+        a = 1      
     else:
         print(q)
 
