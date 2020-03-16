@@ -155,8 +155,8 @@ def QuestionsL4():
         print("""1 - while (a < 5)\n2 - while a foreach[0..4]\n3 - while a < 5:\n4 - while a in range(0..4)""")
         a = 3
     elif q == 2:
-        print("WHAT STAND FOR PEP?")
-        print("""1 - Python Enhancement Proposal\n2 - Python Enter Package\n3 - Package Extra Python\n4 - Python Eight Path""")
+        print("WHAT IS THE CORRECT WAY TO WRITE A FOR LOOP?")
+        print("""1 - for a in range(0, 3):\n2 - for(a in range[0..3])\n3 - for a in range(0..3)\n4 - for(a=0; a<3; a++)""")
         a = 1
     elif q == 3:
         print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
