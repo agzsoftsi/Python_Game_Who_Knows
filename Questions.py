@@ -151,9 +151,9 @@ def QuestionsL3():
 def QuestionsL4():
     q = randint(1, 10)
     if q == 1:
-        print("WHAT STAND FOR PIP?")
-        print("""1 - Python In Package\n2 - Package Installer for Python\n3 - Python Is Push\n4 - Package Inside Package""")
-        a = 2
+        print("WHAT IS THE CORRECT WAY TO WRITE A WHILE LOOP?")
+        print("""1 - while (a < 5)\n2 - while a foreach[0..4]\n3 - while a < 5:\n4 - while a in range(0..4)""")
+        a = 3
     elif q == 2:
         print("WHAT STAND FOR PEP?")
         print("""1 - Python Enhancement Proposal\n2 - Python Enter Package\n3 - Package Extra Python\n4 - Python Eight Path""")
