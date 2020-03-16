@@ -165,10 +165,10 @@ def QuestionsL4():
     elif q == 4:
         print("TO SHOW THE VALUE OF POSITION 2 OF AN ARRAY CALLED 'micoleccion' WE USE")
         print("""1 - print(micoleccion[2])\n2 - printf(micoleccion[2])\n3 - print(micoleccion[1])\n4 - puts(micoleccion[2])""")
-        a = 4
+        a = 3
     elif q == 5:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
-        print("""1 - 1714.67\n2 - 1714.0\n3 - 1714.66\n4 - 1715""")
+        print("""WHICH OF THE FOLLOWING IS A DICTIONARY TYPE OBJECT?""")
+        print("""1 - dicc = {'Num' -> 1, 'Name' -> 'Carlos'}\n2 - dicc = {'Num' => 1, 'Name' => 'Carlos'}\n3 - dicc = ('Num': 1, 'Name': 'Carlos')\n4 - dicc = {'Num': 1, 'Name': 'Carlos'}""")
         a = 1
     elif q == 6:
         print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
