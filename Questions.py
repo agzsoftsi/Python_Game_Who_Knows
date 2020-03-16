@@ -163,8 +163,8 @@ def QuestionsL4():
         print("""1 - if v == true:\n2 - if v == true then\n3 - if v == true\n4 - if (v == true)""")
         a = 1
     elif q == 4:
-        print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
-        print("""1 - number v = 0\n2 - var v = 0\n3 - int v = 0\n4 - v = 0""")
+        print("TO SHOW THE VALUE OF POSITION 2 OF AN ARRAY CALLED 'micoleccion' WE USE")
+        print("""1 - print(micoleccion[2])\n2 - printf(micoleccion[2])\n3 - print(micoleccion[1])\n4 - puts(micoleccion[2])""")
         a = 4
     elif q == 5:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
