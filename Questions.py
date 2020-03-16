@@ -171,21 +171,21 @@ def QuestionsL4():
         print("""1 - dicc = {'Num' -> 1, 'Name' -> 'Carlos'}\n2 - dicc = {'Num' => 1, 'Name' => 'Carlos'}\n3 - dicc = ('Num': 1, 'Name': 'Carlos')\n4 - dicc = {'Num': 1, 'Name': 'Carlos'}""")
         a = 1
     elif q == 6:
-        print("WHAT IS A LIST IN PYTHON??")
+        print("WHAT IS A LIST IN PYTHON?")
         print("""1 - is a collection which is ordered and changeable. Allows duplicate members.\n2 - is a collection which is ordered and unchangeable. Allows duplicate members.\n3 - is a collection which is unordered and unindexed. No duplicate members.\n4 - is a collection which is unordered, changeable and indexed. No duplicate members.""")
         a = 1
     elif q == 7:
-        print("WHAT IS PYTHON?")
-        print("""1 - A low-level, non-object-oriented compiled programming language\n2 - A machine language executed in a java virtual machine\n3 - A high-level object-oriented interpreted programming language\n4 - A programming language invented by the creator of Linux""")
-        a = 3
-    elif q == 8:
-        print("HOW TO KNOW THE TYPE OF A CERTAIN VARIABLE?")
-        print("""1 - TypeOf(1)\n2 - type(1)\n3 - is_a?\n4 - typeof 1""")
+        print("WHAT IS A TUPLE IN PYTHON?")
+        print("""1 - is a collection which is ordered and changeable. Allows duplicate members.\n2 - is a collection which is ordered and unchangeable. Allows duplicate members.\n3 - is a collection which is unordered and unindexed. No duplicate members.\n4 - is a collection which is unordered, changeable and indexed. No duplicate members.""")
         a = 2
+    elif q == 8:
+        print("WHAT IS A SET IN PYTHON?")
+        print("""1 - is a collection which is ordered and changeable. Allows duplicate members.\n2 - is a collection which is ordered and unchangeable. Allows duplicate members.\n3 - is a collection which is unordered and unindexed. No duplicate members.\n4 - is a collection which is unordered, changeable and indexed. No duplicate members.""")
+        a = 3
     elif q == 9:
-        print("TRANSFORM A COMPATIBLE OBJECT INTO A CHARACTER STRING")
-        print("""1 - str()\n2 - int()\n3 - char()\n4 - transform()""")
-        a = 1 
+        print("WHAT IS A DICTIONARY IN PYTHON?")
+        print("""1 - is a collection which is ordered and changeable. Allows duplicate members.\n2 - is a collection which is ordered and unchangeable. Allows duplicate members.\n3 - is a collection which is unordered and unindexed. No duplicate members.\n4 - is a collection which is unordered, changeable and indexed. No duplicate members.""")
+        a = 4 
     elif q == 10:
         print("THAT DATA TYPE IS NOT INTEGER")
         print("""1 - 0x18\n2 - 0b010011\n3 - 12.\n4 - 60""")
