@@ -204,8 +204,8 @@ def QuestionsL5():
         print("""1 - In my function\n2 - “In my function”\n3 - function my_function at …\n4 - Nothing""")
         a = 1
     elif q == 2:
-        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function():\n>>>     print("In my function")\n>>>\n>>> my_function()""")
-        print("""1 - easy Stuff\n2 - "Easy Stuff"\n3 - Easy Stuff\n4 - 'Easy Stuff'""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function():\n>>>     print("In my function")\n>>>\n>>> my_function""")
+        print("""1 - In my function\n2 - “In my function”\n3 - function my_function at …\n4 - Nothing""")
         a = 3
     elif q == 3:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("{:d} karlgarmor".format(32))""")
