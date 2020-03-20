@@ -233,8 +233,8 @@ def QuestionsL5():
         a = 4
     elif q == 9:
         print("""WHICH OF THESE STATEMENTS ABOUT FUNCTIONS IS NOT VALID""")
-        print("""1 - si\n2 - nohtyP\n3 - on\n4 - is""")
-        a = 4 
+        print("""1 - Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).\n2 - The first statement of a function can be an optional statement - the documentation string of the function or docstring.\n3 - A return statement with arguments is the same as return None.\n4 - The code block within every function starts with a colon (:) and is indented.""")
+        a = 3 
     elif q == 10:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[-2])""")
         print("""1 - ol\n2 - si\n3 - o\n4 - l""")
