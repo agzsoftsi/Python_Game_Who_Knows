@@ -236,8 +236,8 @@ def QuestionsL5():
         print("""1 - Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).\n2 - The first statement of a function can be an optional statement - the documentation string of the function or docstring.\n3 - A return statement with arguments is the same as return None.\n4 - The code block within every function starts with a colon (:) and is indented.""")
         a = 3 
     elif q == 10:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[-2])""")
-        print("""1 - ol\n2 - si\n3 - o\n4 - l""")
+        print("""WHICH OF THESE STATEMENTS ABOUT THE ANONYMOUS FUNCTIONS IS NOT VALID?""")
+        print("""1 - Are not declared in the standard manner by using the def keyword.\n2 - You can use the lambda keyword to create small anonymous functions.\n3 - They can contain commands or multiple expressions.\n4 - An anonymous function cannot be a direct call to print because lambda requires an expression""")
         a = 3      
     else:
         print(q)
