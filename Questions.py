@@ -212,9 +212,9 @@ def QuestionsL5():
         print("""1 - Counter: counter\n2 - Counter: c\n3 - Counter: 12\n4 - 12""")
         a = 3
     elif q == 4:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("{:d} is, {}".format(1, "int"))""")
-        print("""1 - 1 is int\n2 - int is 1\n3 - 1 is, int\n4 - 1is,int""")
-        a = 3
+        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter=89):\n>>>     print("Counter: {}".format(counter))\n>>>\n>>> my_function(12)""")
+        print("""1 - Counter: 12\n2 - Counter: 89\n3 - Counter: 101\n4 - 89""")
+        a = 1
     elif q == 5:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[4])""")
         print("""1 - P\n2 - n\n3 - o\n4 - h""")
