@@ -200,8 +200,8 @@ def QuestionsL4():
 def QuestionsL5():
     q = randint(1, 10)
     if q == 1:
-        print("WHO IS THE CREATOR OF PYTHON")
-        print("1 - Guido Van Rossum\n2 - Bill Gates\n3 - Julien Barbier\n4 - Richard Stallman")
+        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function():\n>>>     print("In my function")\n>>>\n>>> my_function()""")
+        print("""1 - In my function\n2 - “In my function”\n3 - function my_function at …\n4 - Nothing""")
         a = 1
     elif q == 2:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("Easy Stuff")""")
