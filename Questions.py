@@ -216,9 +216,9 @@ def QuestionsL5():
         print("""1 - Counter: 12\n2 - Counter: 89\n3 - Counter: 101\n4 - 89""")
         a = 1
     elif q == 5:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[4])""")
-        print("""1 - P\n2 - n\n3 - o\n4 - h""")
-        a = 3
+        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter=89):\n>>>     print("Counter: {}".format(counter))\n>>>\n>>> my_function()""")
+        print("""1 - Counter: 12\n2 - Counter: 89\n3 - Counter: 101\n4 - Nothing""")
+        a = 2
     elif q == 6:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[0:6])""")
         print("""1 - Python is cool\n2 - Python is\n3 - Pytho\n4 - Python""")
