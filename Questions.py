@@ -232,7 +232,7 @@ def QuestionsL5():
         print("""1 - define nombrefuncion()\n2 - function nombrefuncion():\n3 - nombrefuncion: function()\n4 - def nombrefuncion():""")
         a = 4
     elif q == 9:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[7:-5])""")
+        print("""WHICH OF THESE STATEMENTS ABOUT FUNCTIONS IS NOT VALID""")
         print("""1 - si\n2 - nohtyP\n3 - on\n4 - is""")
         a = 4 
     elif q == 10:
