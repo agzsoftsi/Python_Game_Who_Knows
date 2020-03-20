@@ -220,8 +220,8 @@ def QuestionsL5():
         print("""1 - Counter: 12\n2 - Counter: 89\n3 - Counter: 101\n4 - Nothing""")
         a = 2
     elif q == 6:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[0:6])""")
-        print("""1 - Python is cool\n2 - Python is\n3 - Pytho\n4 - Python""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter=89):\n>>>     return counter + 1\n>>>\n>>> print(my_function())""")
+        print("""1 - 1\n2 - 89\n3 - 891\n4 - 90""")
         a = 4
     elif q == 7:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[:6])""")
