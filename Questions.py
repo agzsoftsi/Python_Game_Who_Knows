@@ -208,9 +208,9 @@ def QuestionsL5():
         print("""1 - In my function\n2 - “In my function”\n3 - function my_function at …\n4 - Nothing""")
         a = 3
     elif q == 3:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("{:d} karlgarmor".format(32))""")
-        print("""1 - 32 karlgarmor\n2 - karlgarmor 32\n3 - 32Karlgarmor\n4 - 32 Karlgarmor""")
-        a = 1
+        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter):\n>>>     print("Counter: {}".format(counter))\n>>>\n>>> my_function(12)""")
+        print("""1 - Counter: counter\n2 - Counter: c\n3 - Counter: 12\n4 - 12""")
+        a = 3
     elif q == 4:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print("{:d} is, {}".format(1, "int"))""")
         print("""1 - 1 is int\n2 - int is 1\n3 - 1 is, int\n4 - 1is,int""")
