@@ -224,8 +224,8 @@ def QuestionsL5():
         print("""1 - 1\n2 - 89\n3 - 891\n4 - 90""")
         a = 4
     elif q == 7:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[:6])""")
-        print("""1 - Pytho\n2 - Python\n3 - Python is\n4 - is cool""")
+        print("""ONE WAY TO ADD A BREAKPOINT WITHIN THE CODE IS?""")
+        print("""import pdb; pdb.setBreakpoint()\n2 - import pdb; debugger\n3 - import pdb; pdb.set_trace()\n4 - import pdb; debug""")
         a = 2
     elif q == 8:
         print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> a = "Python is cool"\n>>> print(a[7:])""")
