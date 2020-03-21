@@ -269,8 +269,8 @@ def QuestionsL6():
         print("""1 - 2\n2 - 5\n3 - 6\n4 - 4""")
         a = 2
     elif q == 6:
-        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter=89):\n>>>     return counter + 1\n>>>\n>>> print(my_function())""")
-        print("""1 - 1\n2 - 89\n3 - 891\n4 - 90""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> a[1:3]""")
+        print("""1 - [1, 2, 3]\n2 - [1, 2]\n3 - [2, 3]\n4 - 4""")
         a = 4
     elif q == 7:
         print("""ONE WAY TO ADD A BREAKPOINT WITHIN THE CODE IS?""")
