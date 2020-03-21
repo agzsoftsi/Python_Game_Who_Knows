@@ -282,8 +282,8 @@ def QuestionsL6():
         a = 1
     elif q == 9:
         print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> b = a\n>>> a[2] = 10\n>>> a""")
-        print("""1 - [1, 2, 3, 4]\n2 - [1, 10, 3, 4]\n3 - [1]\n4 - a""")
-        a = 3 
+        print("""1 - [1]\n2 - [1, 2, 10, 4]\n3 - [1, 2, 3, 4]\n4 - b""")
+        a = 2 
     elif q == 10:
         print("""WHICH OF THESE STATEMENTS ABOUT THE ANONYMOUS FUNCTIONS IS NOT VALID?""")
         print("""1 - Are not declared in the standard manner by using the def keyword.\n2 - You can use the lambda keyword to create small anonymous functions.\n3 - They can contain commands or multiple expressions.\n4 - An anonymous function cannot be a direct call to print because lambda requires an expression""")
