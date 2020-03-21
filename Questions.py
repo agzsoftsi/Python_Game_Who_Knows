@@ -273,8 +273,8 @@ def QuestionsL6():
         print("""1 - [1, 2, 3]\n2 - [1, 2]\n3 - [2, 3]\n4 - 4""")
         a = 4
     elif q == 7:
-        print("""ONE WAY TO ADD A BREAKPOINT WITHIN THE CODE IS?""")
-        print("""import pdb; pdb.setBreakpoint()\n2 - import pdb; debugger\n3 - import pdb; pdb.set_trace()\n4 - import pdb; debug""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> a[2] = 10\n>>> a""")
+        print("""1 - [1, 2, 3]\n2 - [1, 2]\n3 - [2, 3]\n4 - 4""")
         a = 2
     elif q == 8:
         print("""THE CORRECT WAY TO WRITE A FUNCTION IS?""")
