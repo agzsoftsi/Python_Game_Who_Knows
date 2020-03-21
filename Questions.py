@@ -277,8 +277,8 @@ def QuestionsL6():
         print("""1 - [1, 2, 3, 4]\n2 - [1, 10, 3, 4]\n3 - [1, 2, 10, 4]\n4 - [1, 2, 10, 10]""")
         a = 3
     elif q == 8:
-        print("""THE CORRECT WAY TO WRITE A FUNCTION IS?""")
-        print("""1 - define nombrefuncion()\n2 - function nombrefuncion():\n3 - nombrefuncion: function()\n4 - def nombrefuncion():""")
+         print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> a[2] = 10\n>>> a""")
+        print("""1 - [1, 2, 3, 4]\n2 - [1, 10, 3, 4]\n3 - [1, 2, 10, 4]\n4 - [1, 2, 10, 10]""")
         a = 4
     elif q == 9:
         print("""WHICH OF THESE STATEMENTS ABOUT FUNCTIONS IS NOT VALID""")
