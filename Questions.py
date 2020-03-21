@@ -277,9 +277,9 @@ def QuestionsL6():
         print("""1 - [1, 2, 3, 4]\n2 - [1, 10, 3, 4]\n3 - [1, 2, 10, 4]\n4 - [1, 2, 10, 10]""")
         a = 3
     elif q == 8:
-         print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> a[2] = 10\n>>> a""")
-        print("""1 - [1, 2, 3, 4]\n2 - [1, 10, 3, 4]\n3 - [1, 2, 10, 4]\n4 - [1, 2, 10, 10]""")
-        a = 4
+         print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> b = a\n>>> b""")
+        print("""1 - [1, 2, 3, 4]\n2 - [1, 10, 3, 4]\n3 - [1]\n4 - a""")
+        a = 1
     elif q == 9:
         print("""WHICH OF THESE STATEMENTS ABOUT FUNCTIONS IS NOT VALID""")
         print("""1 - Function blocks begin with the keyword def followed by the function name and parentheses ( ( ) ).\n2 - The first statement of a function can be an optional statement - the documentation string of the function or docstring.\n3 - A return statement with arguments is the same as return None.\n4 - The code block within every function starts with a colon (:) and is indented.""")
