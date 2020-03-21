@@ -266,7 +266,7 @@ def QuestionsL6():
         a = 2
     elif q == 5:
         print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> a.append(5)\n>>> len(a)""")
-        print("""1 - 2\n2 - 4\n3 - 6\n4 - 8""")
+        print("""1 - 2\n2 - 5\n3 - 6\n4 - 4""")
         a = 2
     elif q == 6:
         print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter=89):\n>>>     return counter + 1\n>>>\n>>> print(my_function())""")
