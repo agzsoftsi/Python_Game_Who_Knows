@@ -253,8 +253,8 @@ def QuestionsL6():
         print("""1 - 1\n2 - 2\n3 - [1]\n4 - [1, 2]""")
         a = 1
     elif q == 2:
-        print("""WHAT DO THESE LINES PRINT? \n>>> def my_function():\n>>>     print("In my function")\n>>>\n>>> my_function""")
-        print("""1 - In my function\n2 - “In my function”\n3 - function my_function at …\n4 - Nothing""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = [1, 2, 3, 4]\n>>> a[-1]""")
+        print("""1 - -1\n2 - 2\n3 - 4\n4 - [4, 3, 2, 1]""")
         a = 3
     elif q == 3:
         print("""WHAT DO THESE LINES PRINT? \n>>> def my_function(counter):\n>>>     print("Counter: {}".format(counter))\n>>>\n>>> my_function(12)""")
