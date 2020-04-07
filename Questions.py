@@ -392,45 +392,45 @@ def QuestionsL8():
 def QuestionsL9():
     q = randint(1, 10)
     if q == 1:
-        print("WHAT STAND FOR PIP?")
-        print("""1 - Python In Package\n2 - Package Installer for Python\n3 - Python Is Push\n4 - Package Inside Package""")
-        a = 2
+        print("IS THIS A STANDARDIZED WAY TO COMMENT A FUNCTION IN PYTHON?")
+        print("""1 - /* Addition function */\n2 - # Addition function\n3 - \""" Addition function \"""\n4 - Addition function""")
+        a = 3
     elif q == 2:
-        print("WHAT STAND FOR PEP?")
-        print("""1 - Python Enhancement Proposal\n2 - Python Enter Package\n3 - Package Extra Python\n4 - Python Eight Path""")
-        a = 1
+        print("WHAT IS __init__?")
+        print("""1 - A class attribute\n2 - A class method\n3 - The instance method called when a new object is created\n4 - The instance method called when a class is called for the first time""")
+        a = 3
     elif q == 3:
-        print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
-        print("""1 - /* comment */\n2 - ### comment '''\n3 - --- comment ---\n4 - ''' comentario '''""")
-        a = 4
-    elif q == 4:
-        print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
-        print("""1 - number v = 0\n2 - var v = 0\n3 - int v = 0\n4 - v = 0""")
-        a = 4
-    elif q == 5:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
-        print("""1 - 1714.67\n2 - 1714.0\n3 - 1714.66\n4 - 1715""")
+        print("WHAT IS __str__?")
+        print("""1 - Instance method that returns an “informal” and nicely printable string representation of an instance\n2 - Instance method that returns the dictionary representation of an instance\n3 - Instance method that prints an “informal” and nicely printable string representation of an instance\n4 - A class attribute""")
         a = 1
+    elif q == 4:
+        print("WHAT IS __repr__?")
+        print("""1 - Instance method that prints an “official” string representation of an instance\n2 - Instance method that returns an “official” string representation of an instance\n3 - Instance method that returns the dictionary representation of an instance\n4 - A class attribute""")
+        a = 2
+    elif q == 5:
+        print("WHAT IS __del__?")
+        print("""1 - Instance method that removes the last character of an instance\n2 - Instance method that prints the memory address of an instance\n3 - Instance method called when an instance is deleted\n4 - A class attribute""")
+        a = 3
     elif q == 6:
-        print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
-        print("""1 - |=1\n2 - @=1\n3 - //=1\n4 - +=1""")
+        print("WHAT IS __doc__?")
+        print("""1 - The string documentation of an object (based on docstring)\n2 - Prints the documentation of an object\n3 - Creates man file\n4 - A class attribute""")
         a = 2
     elif q == 7:
-        print("WHAT IS PYTHON?")
-        print("""1 - A low-level, non-object-oriented compiled programming language\n2 - A machine language executed in a java virtual machine\n3 - A high-level object-oriented interpreted programming language\n4 - A programming language invented by the creator of Linux""")
-        a = 3
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n print(User.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
+        a = 2
     elif q == 8:
-        print("HOW TO KNOW THE TYPE OF A CERTAIN VARIABLE?")
-        print("""1 - TypeOf(1)\n2 - type(1)\n3 - is_a?\n4 - typeof 1""")
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n u = User()\n print(u.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
         a = 2
     elif q == 9:
-        print("TRANSFORM A COMPATIBLE OBJECT INTO A CHARACTER STRING")
-        print("""1 - str()\n2 - int()\n3 - char()\n4 - transform()""")
-        a = 1 
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n u = User()\n u.id = 89\n print(u.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
+        a = 3
     elif q == 10:
-        print("THAT DATA TYPE IS NOT INTEGER")
-        print("""1 - 0x18\n2 - 0b010011\n3 - 12.\n4 - 60""")
-        a = 3      
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n User.id = 98\n u = User()\n print(u.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
+        a = 4      
     else:
         print(q)
 
