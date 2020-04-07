@@ -483,3 +483,51 @@ def QuestionsL10():
         print(q)
 
     return (q,a)
+
+
+def QuestionsL11():
+    q = randint(1, 10)
+    if q == 1:
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = s1\n >>> print(s1 == s2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 2:
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = s1\n >>> print(s1 is s2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 3:
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = "Python"\n >>> print(s1 == s2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 4:
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = "Python"\n >>> print(s1 is s2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 5:
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = [1, 2, 3]\n >>> print(l1 == l2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 6:
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = [1, 2, 3]\n >>> print(l1 is l2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 4
+    elif q == 7:
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> print(l1 == l2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 8:
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> print(l1 is l2)""")
+        print("""1 - None\n2 - Python\n3 - True\n4 - False""")
+        a = 3
+    elif q == 9:
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> l1.append(4)\n >>> print(l2)""")
+        print("""1 - [1, 2, 3, 4]\n2 - [1, 2, 3]\n3 - [0, 1, 2, 3]\n4 - None""")
+        a = 1 
+    elif q == 10:
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> l1 = l1 + [4]\n >>> print(l2)""")
+        print("""1 - [1, 2, 3, 4]\n2 - [1, 2, 3]\n3 - [0, 1, 2, 3]\n4 - [4, 4, 4, 4]""")
+        a = 2      
+    else:
+        print(q)
+
+    return (q,a)
