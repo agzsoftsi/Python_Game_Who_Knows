@@ -460,8 +460,8 @@ def QuestionsL10():
         print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
         a = 3
     elif q == 6:
-        print("WHAT IS THE FUNCTION TO PRINT THE TYPE OF AN OBJECT?")
-        print("""1 - print\n2 - type\n3 - range\n4 - len""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = a + 1""")
+        print("""1 - Yes\n2 - No""")
         a = 2
     elif q == 7:
         print("WHAT IS THE FUNCTION TO GET THE VARIABLE IDENTIFIER (WHICH IS THE MEMORY ADDRESS IN THE CPYTHON IMPLEMENTATION)?")
