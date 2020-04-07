@@ -440,45 +440,45 @@ def QuestionsL9():
 def QuestionsL10():
     q = randint(1, 10)
     if q == 1:
-        print("WHAT STAND FOR PIP?")
-        print("""1 - Python In Package\n2 - Package Installer for Python\n3 - Python Is Push\n4 - Package Inside Package""")
-        a = 2
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n u = User()\n User.id = 98\n print(u.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
+        a = 4
     elif q == 2:
-        print("WHAT STAND FOR PEP?")
-        print("""1 - Python Enhancement Proposal\n2 - Python Enter Package\n3 - Package Extra Python\n4 - Python Eight Path""")
-        a = 1
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n User.id = 98\n u = User()\n u.id = 89\n print(u.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
+        a = 3
     elif q == 3:
-        print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
-        print("""1 - /* comment */\n2 - ### comment '''\n3 - --- comment ---\n4 - ''' comentario '''""")
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n User.id = 98\n u = User()\n u.id = 89\n print(User.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
         a = 4
     elif q == 4:
-        print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
-        print("""1 - number v = 0\n2 - var v = 0\n3 - int v = 0\n4 - v = 0""")
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n u = User()\n u.id = 89\n User.id = 98\n print(User.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
         a = 4
     elif q == 5:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
-        print("""1 - 1714.67\n2 - 1714.0\n3 - 1714.66\n4 - 1715""")
-        a = 1
+        print("""WHAT DO THESE LINES PRINT?\n class User:\n     id = 1\n\n u = User()\n u.id = 89\n User.id = 98\n print(u.id)""")
+        print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
+        a = 3
     elif q == 6:
-        print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
-        print("""1 - |=1\n2 - @=1\n3 - //=1\n4 - +=1""")
+        print("WHAT IS THE FUNCTION TO PRINT THE TYPE OF AN OBJECT?")
+        print("""1 - print\n2 - type\n3 - range\n4 - len""")
         a = 2
     elif q == 7:
-        print("WHAT IS PYTHON?")
-        print("""1 - A low-level, non-object-oriented compiled programming language\n2 - A machine language executed in a java virtual machine\n3 - A high-level object-oriented interpreted programming language\n4 - A programming language invented by the creator of Linux""")
+        print("WHAT IS THE FUNCTION TO GET THE VARIABLE IDENTIFIER (WHICH IS THE MEMORY ADDRESS IN THE CPYTHON IMPLEMENTATION)?")
+        print("""1 - type\n2 - mem\n3 - id\n4 - store""")
         a = 3
     elif q == 8:
-        print("HOW TO KNOW THE TYPE OF A CERTAIN VARIABLE?")
-        print("""1 - TypeOf(1)\n2 - type(1)\n3 - is_a?\n4 - typeof 1""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = 100""")
+        print("""1 - Yes\n2 - No""")
         a = 2
     elif q == 9:
-        print("TRANSFORM A COMPATIBLE OBJECT INTO A CHARACTER STRING")
-        print("""1 - str()\n2 - int()\n3 - char()\n4 - transform()""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = 89""")
+        print("""1 - Yes\n2 - No""")
         a = 1 
     elif q == 10:
-        print("THAT DATA TYPE IS NOT INTEGER")
-        print("""1 - 0x18\n2 - 0b010011\n3 - 12.\n4 - 60""")
-        a = 3      
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = a""")
+        print("""1 - Yes\n2 - No""")
+        a = 1      
     else:
         print(q)
 
