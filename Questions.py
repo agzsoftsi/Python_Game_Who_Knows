@@ -297,45 +297,45 @@ def QuestionsL6():
 def QuestionsL7():
     q = randint(1, 10)
     if q == 1:
-        print("WHAT STAND FOR PIP?")
-        print("""1 - Python In Package\n2 - Package Installer for Python\n3 - Python Is Push\n4 - Package Inside Package""")
-        a = 2
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John" }\n>>> a['id']""")
+        print("""1 - id\n2 - a[‘id’]\n3 - 89\n4 - John""")
+        a = 3
     elif q == 2:
-        print("WHAT STAND FOR PEP?")
-        print("""1 - Python Enhancement Proposal\n2 - Python Enter Package\n3 - Package Extra Python\n4 - Python Eight Path""")
-        a = 1
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John" }\n>>> a.get('id')""")
+        print("""1 - ‘id’\n2 - a[‘id’]\n3 - id\n4 - 89""")
+        a = 4
     elif q == 3:
-        print("WHAT IS THE CORRECT WAY TO COMMENT MULTIPLE LINES OF CODE")
-        print("""1 - /* comment */\n2 - ### comment '''\n3 - --- comment ---\n4 - ''' comentario '''""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John" }\n>>> a.get('age')""")
+        print("""1 - ‘age’\n2 - Not found\n3 - 89\n4 - Nothing""")
         a = 4
     elif q == 4:
-        print("HOW DO YOU DEFINE A VARIABLE BY ASSIGNING IT A VALUE?")
-        print("""1 - number v = 0\n2 - var v = 0\n3 - int v = 0\n4 - v = 0""")
-        a = 4
-    elif q == 5:
-        print("""WHAT DOES THIS COMMAND LINE PRINT? \n>>> print('%.2f' % 1714.666)""")
-        print("""1 - 1714.67\n2 - 1714.0\n3 - 1714.66\n4 - 1715""")
-        a = 1
-    elif q == 6:
-        print("WHICH OF THE FOLLOWING IS NOT A VALID ASSIGNMENT OPERATOR?")
-        print("""1 - |=1\n2 - @=1\n3 - //=1\n4 - +=1""")
-        a = 2
-    elif q == 7:
-        print("WHAT IS PYTHON?")
-        print("""1 - A low-level, non-object-oriented compiled programming language\n2 - A machine language executed in a java virtual machine\n3 - A high-level object-oriented interpreted programming language\n4 - A programming language invented by the creator of Linux""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John" }\n>>> a.get('age', 0)""")
+        print("""1 - ‘age’\n2 - Nothing\n3 - 0\n4 - 89""")
         a = 3
-    elif q == 8:
-        print("HOW TO KNOW THE TYPE OF A CERTAIN VARIABLE?")
-        print("""1 - TypeOf(1)\n2 - type(1)\n3 - is_a?\n4 - typeof 1""")
+    elif q == 5:
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }\n>>> a.get('projects')""")
+        print("""1 - ‘projects’\n2 - [1, 2, 3, 4]\n3 - [1]\n4 - Nothing""")
         a = 2
+    elif q == 6:
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4] }\n>>> a.get('projects')[3]""")
+        print("""1 - 4\n2 - [4]]\n3 - [1, 2, 3, 4]\n4 - 3""")
+        a = 1
+    elif q == 7:
+        print("""WHAT DO THESE LINES PRINT? \n>>> a = { 'id': 89, 'name': "John", 'projects': [1, 2, 3, 4], 'friends': [ { 'id': 82, 'name': "Bob" }, { 'id': 83, 'name': "Amy" } ] }\n>>> a.get('friends')[-1].get("name")""")
+        print("""1 - [ { ‘id’: 82, ‘name’: “Bob” }, { ‘id’: 83, ‘name’: “Amy” } ]\n2 - ‘Amy’\n3 - ‘Bob’\n4 - 89""")
+        a = 2
+    elif q == 8:
+        print("""WHAT DO THESE LINES PRINT? \n>>> for i in range(0, 3):\n>>>     print(i, end=" ")""")
+        print("""1 - 1 2 3\n2 - 0 1 2 3\n3 - 0 1 2\n4 - 1 2 3 4""")
+        a = 3
     elif q == 9:
-        print("TRANSFORM A COMPATIBLE OBJECT INTO A CHARACTER STRING")
-        print("""1 - str()\n2 - int()\n3 - char()\n4 - transform()""")
+        print("""WHAT DO THESE LINES PRINT? \n>>> for i in range(1, 4):\n>>>     print(i, end=" ")""")
+        print("""1 - 1 2 3\n2 - 1 2 3 4\n3 - 0 1 2 3\n4 - 0 1 2 3 4""")
         a = 1 
     elif q == 10:
-        print("THAT DATA TYPE IS NOT INTEGER")
-        print("""1 - 0x18\n2 - 0b010011\n3 - 12.\n4 - 60""")
-        a = 3      
+        print("""WHAT DO THESE LINES PRINT? \n>>> for i in [1, 2, 3, 4]:\n>>>     print(i, end=" ")""")
+        print("""1 - 0 1 2 3\n2 - 0 1 2 3 5\n3 - 1 2 3\n4 - 1 2 3 4""")
+        a = 4      
     else:
         print(q)
 
