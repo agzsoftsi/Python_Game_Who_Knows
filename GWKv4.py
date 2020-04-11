@@ -19,7 +19,8 @@ score_g = 0
 if __name__ == '__main__':
 
     for i in range(1, 13):
-        print(Fore.WHITE + "----------------------------------------QUESTION {:d} ------------------------------------------".format(i))
+        print(Fore.YELLOW + "----------------------------------------QUESTION {:d} ------------------------------------------".format(i))
+        print(Style.RESET_ALL)
         if i == 1:
             q1 = QuestionsL1()
         elif i == 2:
@@ -44,10 +45,12 @@ if __name__ == '__main__':
             q1 = QuestionsL11()
         elif i == 12:
             q1 = QuestionsL12()
-            
+
+        print()    
         print("ENTER YOUR ANSWER: ", end="")
         r = Answers(input())
-               
+        score_g = 0
+
         if q1[0] == 1 and q1[1] == r:
             print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 2 and q1[1] == r:
@@ -71,7 +74,7 @@ if __name__ == '__main__':
         elif q1[0] == 11 and q1[1] == r:
             print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 12 and q1[1] == r:
-            print(Fore.GREEN + "GOOD ANSWER")    
+            print(Fore.GREEN + "GOOD ANSWER")
         else:
             print(Fore.RED + "WRONG ANSWER")
             score_g = 1
@@ -79,7 +82,7 @@ if __name__ == '__main__':
         if score_g == 0:
             score += 10
 
-    
-    print(Fore.YELLOW + "Your Score:  {:d}".format(score))
+    print(Fore.YELLOW + """----------------------------------------------------------------------------------------------""")
+    print(Fore.YELLOW + "                                        Your Score:  {:d}".format(score))
     print(Style.RESET_ALL)
     
