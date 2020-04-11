@@ -66,6 +66,8 @@ if __name__ == '__main__':
             print(Fore.GREEN + "GOOD ANSWER")
         elif q1[0] == 10 and q1[1] == r:
             print(Fore.GREEN + "GOOD ANSWER")
+        elif q1[0] == 11 and q1[1] == r:
+            print(Fore.GREEN + "GOOD ANSWER")    
         else:
             print(Fore.RED + "WRONG ANSWER")
             score_g = 1
