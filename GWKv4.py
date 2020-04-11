@@ -80,6 +80,6 @@ if __name__ == '__main__':
             score += 10
 
     
-    print("Your Score:  {:d}".format(score))
+    print(Fore.YELLOW + "Your Score:  {:d}".format(score))
     print(Style.RESET_ALL)
     
