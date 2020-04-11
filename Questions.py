@@ -532,7 +532,7 @@ def QuestionsL11():
 
     return (q,a)
 
-    def QuestionsL12():
+def QuestionsL12():
     q = randint(1, 10)
     if q == 1:
         print("""WHAT DO THESE LINES PRINT?\n def increment(n):\n     n += 1\n\n a = 1\n increment(a)\n print(a)""")
