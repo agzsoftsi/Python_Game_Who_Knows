@@ -531,3 +531,50 @@ def QuestionsL11():
         print(q)
 
     return (q,a)
+
+    def QuestionsL12():
+    q = randint(1, 10)
+    if q == 1:
+        print("""WHAT DO THESE LINES PRINT?\n def increment(n):\n     n += 1\n\n a = 1\n increment(a)\n print(a)""")
+        print("""1 - n\n2 - 3\n3 - 1\n4 - 0""")
+        a = 3
+    elif q == 2:
+        print("""WHAT DO THESE LINES PRINT?\n def increment(n):\n     n.append(4)\n\n l = [1, 2, 3]\n increment(l)\n print(l)""")
+        print("""1 - [1, 2, 3, 4]\n2 - [1, 2, 3]\n3 - [0, 1, 2, 3]\n4 - [4]""")
+        a = 1
+    elif q == 3:
+        print("""WHAT DO THESE LINES PRINT?\n def assign_value(n, v):\n     n = v\n\n l1 = [1, 2, 3]\n l2 = [4, 5, 6]\n assign_value(l1, l2)\n print(l1)""")
+        print("""1 - [1, 2, 3, 4]\n2 - [0, 1, 2]\n3 - [1, 2, 3]\n4 - [4, 3, 2, 1]""")
+        a = 3
+    elif q == 4:
+        print("""Tuple or not?\n>>> a = ()""")
+        print("""1 - Yes\n2 - No""")
+        a = 1
+    elif q == 5:
+        print("""Tuple or not?\n>>> a = (1, 2)""")
+        print("""1 - Yes\n2 - No""")
+        a = 1
+    elif q == 6:
+        print("""Tuple or not?\n>>> a = (1)""")
+        print("""1 - Yes\n2 - No""")
+        a = 2
+    elif q == 7:
+        print("""Tuple or not?\n>>> a = (1, )""")
+        print("""1 - Yes\n2 - No""")
+        a = 1
+    elif q == 8:
+        print("""WHAT DO THESE LINES PRINT?\n>>> a = (1)\n >>> b = (1)\n >>> a is b""")
+        print("""1 - No\n2 - Yes\n3 - True\n4 - False""")
+        a = 3
+    elif q == 9:
+        print("""WHAT DO THESE LINES PRINT?\n>>> a = (1, 2)\n >>> b = (1, 2)\n >>> a is b""")
+        print("""1 - No\n2 - Yes\n3 - True\n4 - False""")
+        a = 4 
+    elif q == 10:
+        print("""WHAT DO THESE LINES PRINT?\n>>> a = ()\n >>> b = ()\n >>> a is b""")
+        print("""1 - No\n2 - Yes\n3 - True\n4 - False""")
+        a = 3      
+    else:
+        print(q)
+
+    return (q,a)
