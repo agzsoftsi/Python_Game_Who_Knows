@@ -460,7 +460,7 @@ def QuestionsL10():
         print("""1 - None\n2 - 1\n3 - 89\n4 - 98""")
         a = 3
     elif q == 6:
-        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = a + 1""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n>>> b = a + 1""")
         print("""1 - Yes\n2 - No""")
         a = 2
     elif q == 7:
@@ -468,15 +468,15 @@ def QuestionsL10():
         print("""1 - type\n2 - mem\n3 - id\n4 - store""")
         a = 3
     elif q == 8:
-        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = 100""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n>>> b = 100""")
         print("""1 - Yes\n2 - No""")
         a = 2
     elif q == 9:
-        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = 89""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n>>> b = 89""")
         print("""1 - Yes\n2 - No""")
         a = 1 
     elif q == 10:
-        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n >>> b = a""")
+        print("""IN THE FOLLOWING CODE, DO a AND b POINT TO THE SAME OBJECT? ANSWER WITH YES OR NO\n>>> a = 89\n>>> b = a""")
         print("""1 - Yes\n2 - No""")
         a = 1      
     else:
@@ -488,43 +488,43 @@ def QuestionsL10():
 def QuestionsL11():
     q = randint(1, 10)
     if q == 1:
-        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = s1\n >>> print(s1 == s2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n>>> s2 = s1\n>>> print(s1 == s2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 2:
-        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = s1\n >>> print(s1 is s2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n>>> s2 = s1\n>>> print(s1 is s2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 3:
-        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = "Python"\n >>> print(s1 == s2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n>>> s2 = "Python"\n>>> print(s1 == s2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 4:
-        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n >>> s2 = "Python"\n >>> print(s1 is s2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> s1 = "Python"\n>>> s2 = "Python"\n>>> print(s1 is s2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 5:
-        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = [1, 2, 3]\n >>> print(l1 == l2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n>>> l2 = [1, 2, 3]\n>>> print(l1 == l2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 6:
-        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = [1, 2, 3]\n >>> print(l1 is l2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n>>> l2 = [1, 2, 3]\n>>> print(l1 is l2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 4
     elif q == 7:
-        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> print(l1 == l2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n>>> l2 = l1\n>>> print(l1 == l2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 8:
-        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> print(l1 is l2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n>>> l2 = l1\n>>> print(l1 is l2)""")
         print("""1 - None\n2 - Python\n3 - True\n4 - False""")
         a = 3
     elif q == 9:
-        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> l1.append(4)\n >>> print(l2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n>>> l2 = l1\n>>> l1.append(4)\n >>> print(l2)""")
         print("""1 - [1, 2, 3, 4]\n2 - [1, 2, 3]\n3 - [0, 1, 2, 3]\n4 - None""")
         a = 1 
     elif q == 10:
-        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n >>> l2 = l1\n >>> l1 = l1 + [4]\n >>> print(l2)""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> l1 = [1, 2, 3]\n>>> l2 = l1\n>>> l1 = l1 + [4]\n>>> print(l2)""")
         print("""1 - [1, 2, 3, 4]\n2 - [1, 2, 3]\n3 - [0, 1, 2, 3]\n4 - [4, 4, 4, 4]""")
         a = 2      
     else:
@@ -563,15 +563,15 @@ def QuestionsL12():
         print("""1 - Yes\n2 - No""")
         a = 1
     elif q == 8:
-        print("""WHAT DO THESE LINES PRINT?\n>>> a = (1)\n >>> b = (1)\n >>> a is b""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> a = (1)\n>>> b = (1)\n>>> a is b""")
         print("""1 - No\n2 - Yes\n3 - True\n4 - False""")
         a = 3
     elif q == 9:
-        print("""WHAT DO THESE LINES PRINT?\n>>> a = (1, 2)\n >>> b = (1, 2)\n >>> a is b""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> a = (1, 2)\n>>> b = (1, 2)\n>>> a is b""")
         print("""1 - No\n2 - Yes\n3 - True\n4 - False""")
         a = 4 
     elif q == 10:
-        print("""WHAT DO THESE LINES PRINT?\n>>> a = ()\n >>> b = ()\n >>> a is b""")
+        print("""WHAT DO THESE LINES PRINT?\n>>> a = ()\n>>> b = ()\n>>> a is b""")
         print("""1 - No\n2 - Yes\n3 - True\n4 - False""")
         a = 3      
     else:
