@@ -8,6 +8,7 @@ from Answers import Answers
 print(Fore.WHITE + "WHO KNOWS")
 print("CHALLENGE QUESTIONS ABOUT PYTHON BASIC")
 print("LEVEL: DUMMIES")
+print("Author : {} ".format(__author__))
 
 print("ONLY TYPE THE NUMBER OF THE ANSWER")
 
