@@ -1,6 +1,7 @@
 """ Game Who Knows - Module of the All Game """
 __author__ = "Carlos Andres Garcia Morales"
 
+from colorama import init
 from colorama import Fore, Back, Style
 from Questions import *
 from Answers import Answers
